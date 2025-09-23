@@ -11,3 +11,4 @@ public class Exercicio {
       System.out.println("Peso: " +Peso);
    }
 }
+ 
