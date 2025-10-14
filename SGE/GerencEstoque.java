@@ -37,9 +37,9 @@ public class GerencEstoque {
     }
 
     public static void listarProdutos(Produto[] lista){
-         System.out.printf("Cod\tNome\tCategoria\tValor\tQtd Estoque");
+         System.out.printf("Cod\tNome\tCategoria\tValor\tQtd Estoque\n");
         for(int i =0; i < produtosCadastrados; i++){
-            System.out.printf("%d\t%s\t%s\t%.2f\t%d",produtos[i].codigo, produtos[i].nome,produtos[i].categoria, produtos[i].valor, produtos[i].qtdEstoque);
+            System.out.printf("%d\t%s\t%s\t %.2f\t %d\n",produtos[i].codigo, produtos[i].nome,produtos[i].categoria, produtos[i].valor, produtos[i].qtdEstoque);
         }
     }
     
