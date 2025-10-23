@@ -27,5 +27,6 @@ public class Clinica {
         System.out.println("Nome: " + medico1.getNome() + " Salário: " + medico1.getSalario());
         System.out.println("Nome: " + medico2.getNome() + " Salário: " + medico2.getSalario());
         System.out.println("Nome: " + medico3.getNome() + " Salário: " + medico3.getSalario());
+        leia.close();
     }
 }

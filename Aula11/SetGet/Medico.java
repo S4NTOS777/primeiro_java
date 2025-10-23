@@ -5,14 +5,12 @@ public class Medico {
  private int crm;
  private double salario;
  private double  valorConsulta;
- private static int totalMedico; 
  
  public Medico(String nome, int cRM, double salario, double valorConsulta) {
     this.nome = nome;
      this.crm = cRM;
      this.salario = salario;
      this.valorConsulta = valorConsulta;
-     totalMedico+=1;
     }
     public void PagDinheiro (double valorConsulta){
         salario = valorConsulta + salario;

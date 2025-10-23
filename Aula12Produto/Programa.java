@@ -19,6 +19,6 @@ public class Programa {
             
         }
         while (resposta !='n');
-     
-}
+     leia.close();
+  }
 }
